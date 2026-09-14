@@ -505,7 +505,7 @@
     <div>
       <div class="badge"><span class="dot"></span> Available for opportunities</div>
       <div class="hero-eyebrow mono">Tangier, Morocco</div>
-      <h1>Hi, I'm <span class="highlight">Ilyas Yekhlef</span></h1>
+      <h1>Hi, I'm <span class="highlight">IlYas Yekhlef</span></h1>
       <p class="hero-sub">Digital Development Student &amp; Aspiring Web Developer</p>
       <p class="hero-desc">I'm a passionate Digital Development student from Morocco, interested in creating modern, responsive and useful digital experiences. I enjoy learning new technologies, developing web applications, working with databases, and exploring cybersecurity.</p>
       <div class="hero-actions">
