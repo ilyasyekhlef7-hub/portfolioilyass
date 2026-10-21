@@ -1236,6 +1236,35 @@
         <p>Handwritten Agile &amp; Scrum summary: the Agile approach and values, traditional vs. Agile, Scrum vs. Kanban, roles (Product Owner, Scrum Master, Developers), backlogs, story points, sprints and ceremonies.</p>
         <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/atelier2_agile_scrum.jpg" download="atelier2_agile_scrum.jpg">Download photo</a>
       </div>
+
+      <div class="mini-card">
+        <div class="mini-image tall duo">
+          <a href="assets/atelier3_git_page1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 3 &mdash; Git notes, page 1 full size"><img src="assets/atelier3_git_page1.jpg" alt="Atelier 3 &mdash; Git notes, page 1" loading="lazy"></a>
+          <a href="assets/atelier3_git_page2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 3 &mdash; Git notes, page 2 full size"><img src="assets/atelier3_git_page2.jpg" alt="Atelier 3 &mdash; Git notes, page 2" loading="lazy"></a>
+        </div>
+        <span class="mini-tag mono">Agile &middot; Git</span>
+        <h4>Atelier 3</h4>
+        <p>Handwritten Git notes: init, config, working directory, staging area, add, commit, status, diff, tracked vs. untracked files, README and the core command workflow.</p>
+        <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem">
+          <a class="btn btn-ghost btn-sm" href="assets/atelier3_git_page1.jpg" download="atelier3_git_page1.jpg">Download photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/atelier3_git_page2.jpg" download="atelier3_git_page2.jpg">Download photo 2</a>
+        </div>
+      </div>
+
+      <div class="mini-card">
+        <div class="mini-image tall duo">
+          <a href="assets/atelier4_git_github_page1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 4 &mdash; Git &amp; GitHub report, page 1 full size"><img src="assets/atelier4_git_github_page1.jpg" alt="Atelier 4 &mdash; Git &amp; GitHub report, page 1" loading="lazy"></a>
+          <a href="assets/atelier4_git_github_page2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 4 &mdash; Git &amp; GitHub report, page 2 full size"><img src="assets/atelier4_git_github_page2.jpg" alt="Atelier 4 &mdash; Git &amp; GitHub report, page 2" loading="lazy"></a>
+        </div>
+        <span class="mini-tag mono">Agile &middot; GitHub</span>
+        <h4>Atelier 4</h4>
+        <p>Pair-work report on collaborative Git &amp; GitHub: feature branches, push to origin, Pull Requests, merge and pull to sync, with answers to the key concept questions.</p>
+        <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem">
+          <a class="btn btn-ghost btn-sm" href="assets/atelier4_git_github_page1.jpg" download="atelier4_git_github_page1.jpg">Download page 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/atelier4_git_github_page2.jpg" download="atelier4_git_github_page2.jpg">Download page 2</a>
+          <a class="btn btn-ghost btn-sm" href="assets/Rapport_Atelier_Git_GitHub.pdf" download="Rapport_Atelier_Git_GitHub.pdf">Download PDF</a>
+        </div>
+      </div>
     </div>
 
   </div>
