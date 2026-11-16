@@ -8,7 +8,7 @@
 <meta name="keywords" content="Ilyas Yekhlef, web developer Morocco, Tangier developer, digital development student, junior web developer, full-stack developer portfolio">
 <meta name="author" content="Ilyas Yekhlef">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#060810">
+<meta name="theme-color" content="#000000">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -22,7 +22,7 @@
 <meta name="twitter:title" content="Ilyas Yekhlef — Digital Development Student &amp; Aspiring Full-Stack Web Developer">
 <meta name="twitter:description" content="Portfolio of Ilyas Yekhlef, a Digital Development student and aspiring full-stack web developer based in Tangier, Morocco.">
 
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234f7dff'/%3E%3Cstop offset='1' stop-color='%239b7bff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' fill='white' text-anchor='middle'%3EIY%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23000'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' fill='white' text-anchor='middle'%3EIY%3C/text%3E%3C/svg%3E">
 
 <script type="application/ld+json">
 {
@@ -61,23 +61,25 @@
 
   /* ============ TOKENS ============ */
   :root{
-    --bg:#060810;
-    --bg-alt:#0a0d18;
-    --surface:rgba(255,255,255,0.045);
-    --surface-strong:rgba(255,255,255,0.07);
-    --border:rgba(255,255,255,0.09);
-    --border-strong:rgba(255,255,255,0.16);
-    --text:#eef1f8;
-    --text-muted:#96a0b8;
-    --text-faint:#5e6882;
-    --blue:#4f7dff;
-    --blue-bright:#6d93ff;
-    --blue-glow:rgba(79,125,255,0.35);
-    --violet:#9b7bff;
-    --violet-glow:rgba(155,123,255,0.28);
-    --gold:#d9b26a;
-    --success:#3fd68a;
-    --danger:#ff6b6b;
+    --bg:#000000;
+    --bg-alt:#0a0a0a;
+    --surface:rgba(255,255,255,0.05);
+    --surface-strong:rgba(255,255,255,0.08);
+    --border:rgba(255,255,255,0.12);
+    --border-strong:rgba(255,255,255,0.22);
+    --text:#f5f5f5;
+    --text-muted:#a1a1a1;
+    --text-faint:#6b6b6b;
+    --blue:#ffffff;
+    --blue-bright:#ffffff;
+    --blue-glow:rgba(255,255,255,0.28);
+    --violet:#b8b8b8;
+    --violet-glow:rgba(255,255,255,0.18);
+    --gold:#d6d6d6;
+    --success:#ffffff;
+    --danger:#ffffff;
+    --on-accent:#000000;
+    --orb:rgba(255,255,255,0.10);
     --font-display:'Space Grotesk',sans-serif;
     --font-body:'Inter',sans-serif;
     --font-mono:'JetBrains Mono',monospace;
@@ -89,21 +91,25 @@
     --ease:cubic-bezier(.19,1,.22,1);
   }
   html[data-theme="light"]{
-    --bg:#f5f7fb;
-    --bg-alt:#ffffff;
-    --surface:rgba(10,16,32,0.035);
-    --surface-strong:rgba(10,16,32,0.06);
-    --border:rgba(10,16,32,0.09);
-    --border-strong:rgba(10,16,32,0.16);
-    --text:#0d1220;
-    --text-muted:#4d566e;
-    --text-faint:#8890a4;
-    --blue:#2f5fe0;
-    --blue-bright:#2452c9;
-    --blue-glow:rgba(47,95,224,0.18);
-    --violet:#7a53e6;
-    --violet-glow:rgba(122,83,230,0.16);
-    --gold:#b4863a;
+    --bg:#ffffff;
+    --bg-alt:#f3f3f3;
+    --surface:rgba(0,0,0,0.04);
+    --surface-strong:rgba(0,0,0,0.07);
+    --border:rgba(0,0,0,0.12);
+    --border-strong:rgba(0,0,0,0.22);
+    --text:#0a0a0a;
+    --text-muted:#525252;
+    --text-faint:#8a8a8a;
+    --blue:#000000;
+    --blue-bright:#000000;
+    --blue-glow:rgba(0,0,0,0.22);
+    --violet:#3d3d3d;
+    --violet-glow:rgba(0,0,0,0.14);
+    --gold:#666666;
+    --success:#000000;
+    --danger:#000000;
+    --on-accent:#ffffff;
+    --orb:rgba(0,0,0,0.07);
   }
 
   body{
@@ -150,31 +156,25 @@
   .btn{
     display:inline-flex;align-items:center;gap:.55rem;
     padding:.85rem 1.5rem;border-radius:999px;font-weight:600;font-size:.92rem;
-    transition:transform .25s var(--ease), box-shadow .25s var(--ease), background .25s var(--ease), border-color .25s var(--ease), background-position .5s var(--ease);
+    transition:transform .25s var(--ease), box-shadow .25s var(--ease), background .25s var(--ease), border-color .25s var(--ease), color .3s var(--ease);
     white-space:nowrap;
   }
   .btn-primary{
     background:linear-gradient(120deg,var(--blue) 0%,var(--violet) 45%,var(--blue) 100%);
     background-size:220% 100%;background-position:0% 0%;
-    color:#fff;box-shadow:0 8px 30px -8px var(--blue-glow);
-    animation:breathe 3.6s ease-in-out infinite;
+    color:var(--on-accent);box-shadow:0 8px 30px -8px var(--blue-glow);
   }
   .btn-primary:hover{
-    transform:translateY(-2px) scale(1.015);box-shadow:0 16px 40px -8px var(--blue-glow);
-    background-position:100% 0%;animation-play-state:paused;
+    transform:translateY(-3px) scale(1.03);
+    box-shadow:0 0 0 1px color-mix(in srgb,var(--text) 35%,transparent), 0 18px 44px -10px var(--blue-glow), 0 0 28px -4px var(--blue-glow);
   }
   .btn-primary:active{transform:translateY(0) scale(.98)}
-  @keyframes breathe{
-    0%,100%{box-shadow:0 8px 30px -8px var(--blue-glow)}
-    50%{box-shadow:0 8px 34px -4px var(--blue-glow)}
-  }
   .btn-ghost{
     border:1px solid var(--border-strong);color:var(--text);background:var(--surface);
   }
-  .btn-ghost:hover{border-color:var(--blue-bright);background:var(--surface-strong);transform:translateY(-2px);box-shadow:0 10px 26px -12px var(--blue-glow)}
+  .btn-ghost:hover{border-color:var(--blue-bright);transform:translateY(-3px);box-shadow:0 10px 26px -12px var(--blue-glow)}
   .btn-ghost:active{transform:translateY(0)}
   .btn-sm{padding:.6rem 1.1rem;font-size:.85rem}
-  @media(prefers-reduced-motion: reduce){.btn-primary{animation:none}}
 
   /* ============ NAVBAR ============ */
   .navbar{
@@ -193,7 +193,7 @@
   .brand-mark{
     width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;
     background:linear-gradient(135deg,var(--blue),var(--violet));
-    font-family:var(--font-mono);font-size:.78rem;font-weight:600;color:#fff;flex-shrink:0;
+    font-family:var(--font-mono);font-size:.78rem;font-weight:600;color:var(--on-accent);flex-shrink:0;
   }
   .brand-text{font-family:var(--font-display);font-size:1.02rem}
   .brand-text span{color:var(--text-muted);font-weight:500}
@@ -261,11 +261,11 @@
     content:"";position:absolute;border-radius:50%;filter:blur(90px);opacity:.35;z-index:0;
   }
   .hero::before{
-    width:480px;height:480px;background:var(--blue);top:-140px;right:-100px;
+    width:480px;height:480px;background:var(--orb);opacity:1;top:-140px;right:-100px;
     animation:drift1 16s ease-in-out infinite;
   }
   .hero::after{
-    width:380px;height:380px;background:var(--violet);opacity:.22;bottom:-120px;left:-80px;
+    width:380px;height:380px;background:var(--orb);opacity:1;bottom:-120px;left:-80px;
     animation:drift2 20s ease-in-out infinite;
   }
   @keyframes drift1{
@@ -287,8 +287,8 @@
     background:var(--surface);border:1px solid var(--border);font-family:var(--font-mono);
     font-size:.78rem;color:var(--text-muted);margin-bottom:1.6rem;
   }
-  .badge .dot{width:7px;height:7px;border-radius:50%;background:var(--success);box-shadow:0 0 0 3px rgba(63,214,138,.18);animation:pulse 2.4s infinite}
-  @keyframes pulse{0%,100%{box-shadow:0 0 0 3px rgba(63,214,138,.18)}50%{box-shadow:0 0 0 6px rgba(63,214,138,.05)}}
+  .badge .dot{width:7px;height:7px;border-radius:50%;background:var(--text);box-shadow:0 0 0 3px color-mix(in srgb,var(--text) 20%,transparent);animation:pulse 2.4s infinite}
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 3px color-mix(in srgb,var(--text) 20%,transparent)}50%{box-shadow:0 0 0 6px color-mix(in srgb,var(--text) 6%,transparent)}}
 
   .hero-eyebrow{font-family:var(--font-mono);color:var(--blue-bright);font-size:.95rem;margin-bottom:1rem}
   .hero h1{margin-bottom:1.1rem}
@@ -352,9 +352,9 @@
     background:var(--surface);
   }
   .terminal-bar span{width:11px;height:11px;border-radius:50%}
-  .terminal-bar span:nth-child(1){background:#ff5f57}
-  .terminal-bar span:nth-child(2){background:#febc2e}
-  .terminal-bar span:nth-child(3){background:#28c840}
+  .terminal-bar span:nth-child(1){background:var(--text)}
+  .terminal-bar span:nth-child(2){background:var(--text-muted)}
+  .terminal-bar span:nth-child(3){background:var(--text-faint)}
   .terminal-title{margin-left:auto;font-family:var(--font-mono);font-size:.72rem;color:var(--text-faint)}
   .terminal-body{padding:1.4rem 1.3rem 1.6rem;font-family:var(--font-mono);font-size:.86rem;min-height:290px}
   .terminal-line{margin-bottom:.75rem;color:var(--text-muted);white-space:pre-wrap}
@@ -371,10 +371,10 @@
     background:var(--surface);color:var(--text-muted);opacity:.9;
     animation:float 6s ease-in-out infinite;
   }
-  .float-icons span:nth-child(1){top:-14px;left:-14px;animation-delay:0s;color:#e34f26}
-  .float-icons span:nth-child(2){top:20%;right:-22px;animation-delay:1.2s;color:#2965f1}
-  .float-icons span:nth-child(3){bottom:18%;left:-26px;animation-delay:2.4s;color:#f0db4f}
-  .float-icons span:nth-child(4){bottom:-16px;right:10%;animation-delay:.6s;color:#3776ab}
+  .float-icons span:nth-child(1){top:-14px;left:-14px;animation-delay:0s}
+  .float-icons span:nth-child(2){top:20%;right:-22px;animation-delay:1.2s}
+  .float-icons span:nth-child(3){bottom:18%;left:-26px;animation-delay:2.4s}
+  .float-icons span:nth-child(4){bottom:-16px;right:10%;animation-delay:.6s}
   @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
   @media(max-width:960px){.float-icons{display:none}}
 
@@ -397,6 +397,7 @@
     aspect-ratio:1/1;
     transition:box-shadow .35s var(--ease);
   }
+  html[data-theme="light"] .photo-glow{opacity:.16}
   .photo-frame:hover{box-shadow:0 34px 80px -22px var(--blue-glow)}
   .photo-frame img{width:100%;height:100%;object-fit:cover;display:block}
   .mini-terminal{
@@ -541,6 +542,17 @@
   .ex-panel.active{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
   @media(max-width:900px){.ex-panel.active{grid-template-columns:1fr 1fr}}
   @media(max-width:560px){.ex-panel.active{grid-template-columns:1fr}}
+  .module-panel{display:none}
+  .module-panel.active{display:block}
+  .module-tabs{gap:.7rem}
+  .module-tabs .tab-btn{display:flex;flex-direction:column;align-items:flex-start;gap:.15rem;padding:.7rem 1.3rem;border-radius:var(--radius-m);border-color:var(--border)}
+  .tab-code{font-family:var(--font-mono);font-weight:600;font-size:.95rem}
+  .tab-sub{font-size:.72rem;color:var(--text-faint);font-weight:400}
+  .module-tabs .tab-btn.active .tab-sub{color:var(--text-muted)}
+  .sub-tabs{border-bottom:none;padding-bottom:0;margin-bottom:1.5rem;gap:.4rem}
+  .sub-tabs .tab-btn{font-size:.82rem;padding:.42rem .95rem;font-family:var(--font-mono)}
+  .mini-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem}
+  .project-actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.4rem}
   .mini-card:hover{border-color:var(--blue-bright);transform:translateY(-3px);box-shadow:0 16px 34px -16px var(--blue-glow)}
   .mini-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:.7rem}
   .mini-icon{
@@ -668,24 +680,37 @@
   .form-msg.ok{color:var(--success)}
   .form-msg.err{color:var(--danger)}
 
-  /* ---- code-bracket hover animation for buttons ---- */
-  .btn{position:relative}
-  .btn::before,.btn::after{
-    content:"";position:absolute;top:50%;font-family:var(--font-mono);font-weight:600;
-    font-size:.82rem;color:var(--blue-bright);opacity:0;pointer-events:none;
-    transition:opacity .25s var(--ease), transform .25s var(--ease);
+  /* ---- button animation: rotating brilliant edge + shine sweep ---- */
+  @property --angle{syntax:'<angle>';inherits:false;initial-value:0deg}
+  .btn{position:relative;isolation:isolate;overflow:hidden}
+  .btn::before{
+    content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;z-index:1;pointer-events:none;
+    background:conic-gradient(from var(--angle),transparent 0%,transparent 62%,var(--text) 84%,transparent 100%);
+    -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+    -webkit-mask-composite:xor;mask-composite:exclude;
+    opacity:.55;animation:spinEdge 3.2s linear infinite;
+    transition:opacity .35s var(--ease);
   }
-  .btn::before{content:"<";left:-.05rem;transform:translate(-100%,-50%);}
-  .btn::after{content:"/>";right:-.05rem;transform:translate(100%,-50%);}
-  .btn:hover::before{opacity:1;transform:translate(-135%,-50%);}
-  .btn:hover::after{opacity:1;transform:translate(135%,-50%);}
-  .btn-ghost::before,.btn-ghost::after{color:var(--text-muted)}
-  .btn-ghost:hover::before,.btn-ghost:hover::after{color:var(--blue-bright)}
-  @media(prefers-reduced-motion: reduce){.btn::before,.btn::after{display:none}}
+  .btn:hover::before{opacity:1;animation-duration:1.6s}
+  .btn::after{
+    content:"";position:absolute;top:-20%;bottom:-20%;left:0;width:34%;z-index:0;pointer-events:none;
+    background:linear-gradient(100deg,transparent,color-mix(in srgb,var(--text) 38%,transparent),transparent);
+    transform:translateX(-160%) skewX(-22deg);opacity:0;
+  }
+  .btn-primary::after{background:linear-gradient(100deg,transparent,color-mix(in srgb,var(--on-accent) 32%,transparent),transparent)}
+  .btn:hover::after{opacity:1;animation:shine .85s var(--ease) 1}
+  @keyframes spinEdge{to{--angle:360deg}}
+  @keyframes shine{from{transform:translateX(-160%) skewX(-22deg)}to{transform:translateX(420%) skewX(-22deg)}}
+  @media(prefers-reduced-motion: reduce){.btn::before{animation:none}.btn:hover::after{animation:none;opacity:0}}
+
+  /* ---- theme switch: circular reveal (View Transitions) ---- */
+  ::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+  ::view-transition-old(root){z-index:1}
+  ::view-transition-new(root){z-index:2}
 
   .ripple-layer{position:absolute;inset:0;overflow:hidden;border-radius:inherit;pointer-events:none}
   .btn-ripple{
-    position:absolute;border-radius:50%;background:rgba(255,255,255,.55);
+    position:absolute;border-radius:50%;background:color-mix(in srgb,var(--on-accent) 40%,transparent);
     width:12px;height:12px;margin-left:-6px;margin-top:-6px;
     pointer-events:none;transform:scale(0);animation:ripple .6s var(--ease) forwards;
   }
@@ -707,8 +732,12 @@
   }
   .scroll-top.show{opacity:1;pointer-events:auto;transform:translateY(0)}
   .scroll-top:hover{transform:translateY(-3px) rotate(-8deg) scale(1.06);box-shadow:0 14px 34px -8px var(--blue-glow)}
-  .scroll-top svg{width:18px;height:18px;color:#fff;transition:transform .3s var(--ease)}
+  .scroll-top svg{width:18px;height:18px;color:var(--on-accent);transition:transform .3s var(--ease)}
   .scroll-top:hover svg{transform:translateY(-2px)}
+
+  /* ============ PARTICLE NETWORK BACKGROUND ============ */
+  #bgCanvas{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+  @media(prefers-reduced-motion: reduce){#bgCanvas{display:none}}
 
   /* ============ SCROLL PROGRESS ============ */
   .scroll-progress{
@@ -721,6 +750,7 @@
 </head>
 <body>
 <div class="scroll-progress" id="scrollProgress"></div>
+<canvas id="bgCanvas" aria-hidden="true"></canvas>
 
 <nav class="navbar" id="navbar">
   <div class="container nav-inner">
@@ -918,7 +948,7 @@
       <p>I'm presenting my current level honestly — I'm a student continuously improving, not claiming expert status.</p>
     </div>
 
-    <div class="tabs reveal">
+    <div class="tabs reveal" data-panels=".skills-panel">
       <button class="tab-btn active" data-tab="frontend">Frontend</button>
       <button class="tab-btn" data-tab="backend">Backend</button>
       <button class="tab-btn" data-tab="programming">Programming</button>
@@ -999,24 +1029,35 @@
           <li>Portable keychain</li>
           <li>Lightweight design</li>
         </ul>
+              <div class="project-actions">
+          <a class="btn btn-primary btn-sm" href="https://abdellahzammrane.github.io/PIE-Project-the-final-version/" target="_blank" rel="noopener">Live Demo <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <a class="btn btn-ghost btn-sm" href="assets/kagitech.jpg" download="kagitech.jpg">Download image</a>
+        </div>
       </article>
 
       <article class="project-card reveal">
+        <div class="project-image">
+          <img src="assets/facilo.png" alt="Facilo classifieds platform preview" loading="lazy">
+        </div>
         <div class="project-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 2-1.61l1.5-8.39H5.12"/></svg>
         </div>
-        <div class="project-cat mono">Web Development</div>
-        <h3>E-Commerce Website</h3>
-        <p>A responsive e-commerce website concept developed to practice modern front-end development, user interfaces, product presentation and web interactions.</p>
+        <div class="project-cat mono">Web Development &middot; Classified Ads</div>
+        <h3>Facilo</h3>
+        <p>Facilo is a web classifieds platform that lets users publish and browse offers in real estate and mobile products, with a simple and intuitive interface.</p>
         <div class="tag-row">
-          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Responsive</span>
+          <span class="tag">Web Platform</span><span class="tag">Classified Ads</span><span class="tag">Real Estate</span><span class="tag">Mobile Products</span>
         </div>
         <ul class="feature-list">
-          <li>Product cards</li>
-          <li>Responsive layout</li>
-          <li>Interactive navigation</li>
-          <li>Modern UI</li>
+          <li>Publish offers</li>
+          <li>Browse listings</li>
+          <li>Real estate &amp; mobile categories</li>
+          <li>Simple, intuitive interface</li>
         </ul>
+        <div class="project-actions">
+          <a class="btn btn-primary btn-sm" href="https://facilo-project-team-aim.vercel.app/" target="_blank" rel="noopener">Live Demo <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <a class="btn btn-ghost btn-sm" href="assets/facilo.png" download="facilo.png">Download image</a>
+        </div>
       </article>
 
       <article class="project-card reveal">
@@ -1065,16 +1106,21 @@
     <div class="section-head reveal">
       <div class="section-tag">Practice</div>
       <h2>Mini Projects &amp; Exercises</h2>
-      <p>UML modeling, Figma UI design practice and Agile project-management workshops from my coursework &mdash; separate from the larger projects above.</p>
+      <p>Workshops and exercises from my coursework, organised by module &mdash; separate from the larger projects above.</p>
     </div>
 
-    <div class="tabs reveal">
-      <button class="tab-btn active" data-tab="uml">UML</button>
-      <button class="tab-btn" data-tab="figma">Figma</button>
-      <button class="tab-btn" data-tab="agile">Agile</button>
+    <div class="tabs module-tabs reveal" data-panels=".module-panel" aria-label="Modules">
+      <button class="tab-btn active" data-tab="m201"><span class="tab-code">M201</span><span class="tab-sub">UML &amp; Figma</span></button>
+      <button class="tab-btn" data-tab="m202"><span class="tab-code">M202</span><span class="tab-sub">Gantt/PERT, Git &amp; Agile</span></button>
+      <button class="tab-btn" data-tab="m203"><span class="tab-code">M203</span><span class="tab-sub">SQL &amp; MySQL</span></button>
     </div>
 
-    <div class="ex-panel active" data-panel="uml">
+    <div class="module-panel active" data-panel="m201">
+      <div class="tabs sub-tabs" data-panels=".ex-panel" aria-label="M201 topics">
+        <button class="tab-btn active" data-tab="uml">UML</button>
+        <button class="tab-btn" data-tab="figma">Figma</button>
+      </div>
+      <div class="ex-panel active" data-panel="uml">
 
 
       <div class="mini-card">
@@ -1084,7 +1130,7 @@
         </div>
         <h4>School Management &mdash; Class Diagram</h4>
         <p>Models a school's structure: École, Département, Enseignant, Étudiant, Matière, Note and Salle, with operations like calculerMoyenneGenerale to compute student averages.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme-classe-ecole.mdj" download="diagramme-classe-ecole.mdj">Download .mdj</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramdeclassecole.mdj" download="diagramdeclassecole.mdj">Download .mdj</a>
       </div>
 
       <div class="mini-card">
@@ -1094,7 +1140,7 @@
         </div>
         <h4>Project &amp; Task Manager &mdash; Class Diagram</h4>
         <p>Models a small dev-tools platform: Développeur, Projet, Tâche, an IDE and a participation relationship, with operations for creating, assigning and updating tasks.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme-classe-website.mdj" download="diagramme-classe-website.mdj">Download .mdj</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramdeclasswebsite.mdj" download="diagramdeclasswebsite.mdj">Download .mdj</a>
       </div>
 
       <div class="mini-card">
@@ -1104,7 +1150,7 @@
         </div>
         <h4>Point of Sale System &mdash; Functional Diagram</h4>
         <p>Maps the actors (cashier, client, store manager, bank) and use cases of a checkout system: registering items, applying discount coupons and paying by card, cheque or cash.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme-fonctionnalite-caisse.mdj" download="diagramme-fonctionnalite-caisse.mdj">Download .mdj</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/caisierdigramfocntionalite.mdj" download="caisierdigramfocntionalite.mdj">Download .mdj</a>
       </div>
 
       <div class="mini-card">
@@ -1114,156 +1160,188 @@
         </div>
         <h4>Checkout Payment &mdash; Sequence Diagram</h4>
         <p>Traces the interaction flow between the cashier, the client and the client's bank during a card payment at checkout.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme-sequence-caisse.mdj" download="diagramme-sequence-caisse.mdj">Download .mdj</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/caisierdiagramsequence.mdj" download="caisierdiagramsequence.mdj">Download .mdj</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/diagramme_d_activite.jpg" alt="Diagramme d'Activit&eacute;" loading="lazy">
+          <img src="assets/M201/diagramme_d_activite.jpeg" alt="Diagramme d'Activit&eacute;" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Activity Diagram</span>
         <h4>Diagramme d'Activit&eacute;</h4>
         <p>Models the cancellation (d&eacute;sistement) workflow of a property sale across the buyer, sales director and lawyer, from request to refund of the deposit.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme_d_activite.jpg" download="diagramme_d_activite.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_activite.jpeg" download="diagramme_d_activite.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/diagramme_de_cas_d_utilisation.jpg" alt="Diagramme de Cas d'Utilisation" loading="lazy">
+          <img src="assets/M201/diagramme_de_cas_d_utilisation.jpeg" alt="Diagramme de Cas d'Utilisation" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Use Case Diagram</span>
         <h4>Diagramme de Cas d'Utilisation</h4>
         <p>Maps the actors and use cases of a full apartment sale process &mdash; browsing offers, visits, reservations, purchase, payment and cancellation handling.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme_de_cas_d_utilisation.jpg" download="diagramme_de_cas_d_utilisation.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_cas_d_utilisation.jpeg" download="diagramme_de_cas_d_utilisation.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/diagramme_de_classe.jpg" alt="Diagramme de Classe" loading="lazy">
+          <img src="assets/M201/DIagramme_de_class.jpeg" alt="Diagramme de Classe" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Class Diagram</span>
         <h4>Diagramme de Classe</h4>
         <p>Full domain model for an apartment sale system &mdash; properties, reservations, sales, cancellations, and the client, lawyer and sales-director roles.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme_de_classe.jpg" download="diagramme_de_classe.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/DIagramme_de_class.jpeg" download="DIagramme_de_class.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/diagramme_de_sequence.jpg" alt="Diagramme de S&eacute;quence" loading="lazy">
+          <img src="assets/M201/diagramme_de_sequence.jpeg" alt="Diagramme de S&eacute;quence" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Sequence Diagram</span>
         <h4>Diagramme de S&eacute;quence</h4>
         <p>Traces the interaction flow of reserving and visiting an apartment through to payment and the signed sale contract.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme_de_sequence.jpg" download="diagramme_de_sequence.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_sequence.jpeg" download="diagramme_de_sequence.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/diagramme_d_etats_transition.jpg" alt="Diagramme d'&Eacute;tats-Transitions" loading="lazy">
+          <img src="assets/M201/diagramme_d_etet_transition.jpeg" alt="Diagramme d'&Eacute;tats-Transitions" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; State Diagram</span>
         <h4>Diagramme d'&Eacute;tats-Transitions</h4>
         <p>State diagram for a property listing &mdash; from awaiting sale through reserved, purchased and delivered, including the cancellation path.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/diagramme_d_etats_transition.jpg" download="diagramme_d_etats_transition.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_etet_transition.jpeg" download="diagramme_d_etet_transition.jpeg">Download image</a>
       </div>
       <p style="grid-column:1/-1;font-size:.82rem;color:var(--text-faint);margin-top:.4rem;font-family:var(--font-mono)">.mdj files open in <a href="https://staruml.io" target="_blank" rel="noopener" style="color:var(--blue-bright)">StarUML</a></p>
-    </div>
-
-    <div class="ex-panel" data-panel="figma">
+      </div>
+      <div class="ex-panel" data-panel="figma">
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/figma_exercise1_partie1.jpg" alt="Shape Composition" loading="lazy">
+          <img src="assets/M201/figmaex1partie1.png" alt="Shape Composition" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 1)</span>
         <h4>Shape Composition</h4>
         <p>Recreating a multi-shape logo mark using overlapping pills and circles &mdash; practicing boolean operations and precise alignment.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/figma_exercise1_partie1.jpg" download="figma_exercise1_partie1.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie1.png" download="figmaex1partie1.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/figma_exercise1_partie2.jpg" alt="Donut Chart" loading="lazy">
+          <img src="assets/M201/figmaex1partie2.png" alt="Donut Chart" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 2)</span>
         <h4>Donut Chart</h4>
         <p>A donut chart component built from layered rings and arcs, practicing proportion, spacing and color.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/figma_exercise1_partie2.jpg" download="figma_exercise1_partie2.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie2.png" download="figmaex1partie2.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/figma_exercise1_partie3.jpg" alt="Dark Mode Card" loading="lazy">
+          <img src="assets/M201/figmaex1partie3.png" alt="Dark Mode Card" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 3)</span>
         <h4>Dark Mode Card</h4>
         <p>A dark-mode UI card with icon and label, practicing spacing, contrast and minimal composition.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/figma_exercise1_partie3.jpg" download="figma_exercise1_partie3.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie3.png" download="figmaex1partie3.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/figma_exercise1_partie4.jpg" alt="Credit Card UI" loading="lazy">
+          <img src="assets/M201/figmaex1partie4.png" alt="Credit Card UI" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 4)</span>
         <h4>Credit Card UI</h4>
         <p>A credit card UI component &mdash; testing gradients, rounded corners and a realistic card layout.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/figma_exercise1_partie4.jpg" download="figma_exercise1_partie4.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie4.png" download="figmaex1partie4.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/figma_exercise2.jpg" alt="Social Post Card" loading="lazy">
+          <img src="assets/M201/figmaex2.png" alt="Social Post Card" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 2</span>
         <h4>Social Post Card</h4>
         <p>A social-media post card clone &mdash; avatar, image, like/comment/share icons and an engagement count.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/figma_exercise2.jpg" download="figma_exercise2.jpg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex2.png" download="figmaex2.png">Download image</a>
+      </div>
       </div>
     </div>
 
-    <div class="ex-panel" data-panel="agile">
+    <div class="module-panel" data-panel="m202">
+      <div class="tabs sub-tabs" data-panels=".ex-panel" aria-label="M202 topics">
+        <button class="tab-btn active" data-tab="gantt">Gantt / PERT</button>
+        <button class="tab-btn" data-tab="git">Git</button>
+        <button class="tab-btn" data-tab="agile">Agile</button>
+      </div>
+      <div class="ex-panel active" data-panel="gantt">
       <div class="mini-card">
         <div class="mini-image tall duo">
-          <a href="assets/atelier1_photo1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 1 full size"><img src="assets/atelier1_photo1.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 1" loading="lazy"></a>
-          <a href="assets/atelier1_photo2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 2 full size"><img src="assets/atelier1_photo2.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 2" loading="lazy"></a>
+          <a href="assets/M202/atelier1gestiondeproject_partie2_.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 1 full size"><img src="assets/M202/atelier1gestiondeproject_partie2_.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 1" loading="lazy"></a>
+          <a href="assets/M202/atelier1gestiondeproject_partie2_b.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 2 full size"><img src="assets/M202/atelier1gestiondeproject_partie2_b.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 2" loading="lazy"></a>
         </div>
-        <span class="mini-tag mono">Agile &middot; Project Management</span>
+        <span class="mini-tag mono">Gantt / PERT &middot; Project Management</span>
         <h4>Atelier 1</h4>
         <p>Project planning exercise: a Gantt chart for tasks A&ndash;H (October 2026) with their dependencies, plus the critical-path network. Critical path: A(5) &rarr; B(2) &rarr; F(5) &rarr; G(1) &rarr; H(2).</p>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem">
-          <a class="btn btn-ghost btn-sm" href="assets/atelier1_photo1.jpg" download="atelier1_photo1.jpg">Download photo 1</a>
-          <a class="btn btn-ghost btn-sm" href="assets/atelier1_photo2.jpg" download="atelier1_photo2.jpg">Download photo 2</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1gestiondeproject_partie2_.jpg" download="atelier1gestiondeproject_partie2_.jpg">Download photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1gestiondeproject_partie2_b.jpg" download="atelier1gestiondeproject_partie2_b.jpg">Download photo 2</a>
         </div>
       </div>
-
+      </div>
+      <div class="ex-panel" data-panel="git">
       <div class="mini-card">
         <div class="mini-image tall">
-          <a href="assets/atelier2_agile_scrum.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 2 photo full size"><img src="assets/atelier2_agile_scrum.jpg" alt="Atelier 2 &mdash; handwritten Agile and Scrum summary" loading="lazy"></a>
+          <a href="assets/M202/atelier5_efmregional.jpeg" target="_blank" rel="noopener" aria-label="Open Atelier 5 photo full size"><img src="assets/M202/atelier5_efmregional.jpeg" alt="Atelier 5 &mdash; handwritten Git commands from the regional exam" loading="lazy"></a>
+        </div>
+        <span class="mini-tag mono">Git &middot; Regional Exam M202</span>
+        <h4>Atelier 5 &mdash; Regional Exam (M202)</h4>
+        <p>Handwritten Git workflow from the regional exam: viewing history with git log, creating and merging branches, restoring files, then initializing a repository, linking a remote with git remote add origin and pushing with git push origin.</p>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M202/atelier5_efmregional.jpeg" download="atelier5_efmregional.jpeg">Download image</a>
+      </div>
+      <div class="mini-card">
+        <div class="mini-image tall">
+          <a href="assets/M202/atelier6-stagiaire.png" target="_blank" rel="noopener" aria-label="Open Atelier 6 screenshot full size"><img src="assets/M202/atelier6-stagiaire.png" alt="Atelier 6 &mdash; trainee registration form" loading="lazy"></a>
+        </div>
+        <span class="mini-tag mono">PHP &middot; MySQL &middot; Cloudinary &middot; Vercel</span>
+        <h4>Atelier 6 &mdash; Trainee Management</h4>
+        <p>Prerequisite for the Quick Annonces Sprint 3: a registration form (name, first name, city, photo) sent to a PHP backend that uploads the photo to Cloudinary and saves the trainee in MySQL on Aiven, plus a list page &mdash; deployed on Vercel from GitHub.</p>
+        <div class="mini-actions">
+          <a class="btn btn-primary btn-sm" href="https://atelierz6satagiaires-nc12mz3do-ilyasyk.vercel.app/" target="_blank" rel="noopener">Live Demo <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/At6_github.pdf" download="At6_github.pdf">Report (PDF)</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier6-stagiaire.png" download="atelier6-stagiaire.png">Download image</a>
+        </div>
+      </div>
+      </div>
+      <div class="ex-panel" data-panel="agile">
+      <div class="mini-card">
+        <div class="mini-image tall">
+          <a href="assets/M202/atelier2agilescrum.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 2 photo full size"><img src="assets/M202/atelier2agilescrum.jpg" alt="Atelier 2 &mdash; handwritten Agile and Scrum summary" loading="lazy"></a>
         </div>
         <span class="mini-tag mono">Agile &middot; Scrum</span>
         <h4>Atelier 2</h4>
         <p>Handwritten Agile &amp; Scrum summary: the Agile approach and values, traditional vs. Agile, Scrum vs. Kanban, roles (Product Owner, Scrum Master, Developers), backlogs, story points, sprints and ceremonies.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/atelier2_agile_scrum.jpg" download="atelier2_agile_scrum.jpg">Download photo</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M202/atelier2agilescrum.jpg" download="atelier2agilescrum.jpg">Download photo</a>
       </div>
+      </div>
+    </div>
 
+    <div class="module-panel" data-panel="m203">
+      <div class="ex-panel active">
       <div class="mini-card">
-        <div class="mini-image tall duo">
-          <a href="assets/atelier3_git_page1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 3 &mdash; Git notes, page 1 full size"><img src="assets/atelier3_git_page1.jpg" alt="Atelier 3 &mdash; Git notes, page 1" loading="lazy"></a>
-          <a href="assets/atelier3_git_page2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 3 &mdash; Git notes, page 2 full size"><img src="assets/atelier3_git_page2.jpg" alt="Atelier 3 &mdash; Git notes, page 2" loading="lazy"></a>
+        <div class="mini-top">
+          <div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <span class="mini-tag mono">SQL &middot; MySQL &middot; Aiven</span>
         </div>
-        <span class="mini-tag mono">Agile &middot; Git</span>
-        <h4>Atelier 3</h4>
-        <p>Handwritten Git notes: init, config, working directory, staging area, add, commit, status, diff, tracked vs. untracked files, README and the core command workflow.</p>
-        <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem">
-          <a class="btn btn-ghost btn-sm" href="assets/atelier3_git_page1.jpg" download="atelier3_git_page1.jpg">Download photo 1</a>
-          <a class="btn btn-ghost btn-sm" href="assets/atelier3_git_page2.jpg" download="atelier3_git_page2.jpg">Download photo 2</a>
+        <h4>Atelier 1 &mdash; SQL Complet</h4>
+        <p>Lab report (14 pages) on a MySQL 8.4 database hosted on Aiven Cloud: schema of five related tables, data insertion, INNER / LEFT / RIGHT / FULL joins, aggregations (SUM, AVG, GROUP BY, HAVING), functions (IF, DATEDIFF, LIMIT) and subqueries (IN, NOT IN, EXISTS).</p>
+        <div class="mini-actions">
+          <a class="btn btn-primary btn-sm" href="assets/M203/Atelier_1_SQL_Complet.pdf" target="_blank" rel="noopener">Open PDF</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M203/Atelier_1_SQL_Complet.pdf" download="Atelier_1_SQL_Complet.pdf">Download PDF</a>
         </div>
       </div>
-
       <div class="mini-card">
-        <div class="mini-image tall duo">
-          <a href="assets/atelier4_git_github_page1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 4 &mdash; Git &amp; GitHub report, page 1 full size"><img src="assets/atelier4_git_github_page1.jpg" alt="Atelier 4 &mdash; Git &amp; GitHub report, page 1" loading="lazy"></a>
-          <a href="assets/atelier4_git_github_page2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 4 &mdash; Git &amp; GitHub report, page 2 full size"><img src="assets/atelier4_git_github_page2.jpg" alt="Atelier 4 &mdash; Git &amp; GitHub report, page 2" loading="lazy"></a>
+        <div class="mini-top">
+          <div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <span class="mini-tag mono">SQL &middot; MySQL &middot; Aiven</span>
         </div>
-        <span class="mini-tag mono">Agile &middot; GitHub</span>
-        <h4>Atelier 4</h4>
-        <p>Pair-work report on collaborative Git &amp; GitHub: feature branches, push to origin, Pull Requests, merge and pull to sync, with answers to the key concept questions.</p>
-        <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem">
-          <a class="btn btn-ghost btn-sm" href="assets/atelier4_git_github_page1.jpg" download="atelier4_git_github_page1.jpg">Download page 1</a>
-          <a class="btn btn-ghost btn-sm" href="assets/atelier4_git_github_page2.jpg" download="atelier4_git_github_page2.jpg">Download page 2</a>
-          <a class="btn btn-ghost btn-sm" href="assets/Rapport_Atelier_Git_GitHub.pdf" download="Rapport_Atelier_Git_GitHub.pdf">Download PDF</a>
+        <h4>Atelier 2 &mdash; SQL Execution Report</h4>
+        <p>Execution report (7 pages) of the SQL workshop on the remote MySQL instance: SSL connection, database and tables creation, joins, aggregations, functions, subqueries, then indexes with CREATE INDEX and EXPLAIN &mdash; with a screenshot for every step.</p>
+        <div class="mini-actions">
+          <a class="btn btn-primary btn-sm" href="assets/M203/Atelier_2_-_Rapport_d_Ex%C3%A9cution_SQL.pdf" target="_blank" rel="noopener">Open PDF</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M203/Atelier_2_-_Rapport_d_Ex%C3%A9cution_SQL.pdf" download="Atelier_2_-_Rapport_d_Exécution_SQL.pdf">Download PDF</a>
         </div>
+      </div>
       </div>
     </div>
 
@@ -1483,10 +1561,33 @@
 
   /* ---------- THEME TOGGLE (in-memory, no storage APIs) ---------- */
   var root = document.documentElement;
-  document.getElementById('themeToggle').addEventListener('click', function(){
+  function applyTheme(){
     var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
     root.setAttribute('data-theme', next);
-  });
+  }
+
+  /* ---------- CIRCULAR REVEAL BETWEEN THEMES ----------
+     The new theme expands as a circle from the toggle button.
+     Falls back to an instant switch where View Transitions are unsupported. */
+  var themeBusy = false;
+  function switchTheme(e){
+    if(themeBusy) return;
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!document.startViewTransition || reduce){ applyTheme(); return; }
+    themeBusy = true;
+    var r = e.currentTarget.getBoundingClientRect();
+    var x = r.left + r.width / 2, y = r.top + r.height / 2;
+    var end = Math.hypot(Math.max(x, window.innerWidth - x), Math.max(y, window.innerHeight - y));
+    var vt = document.startViewTransition(applyTheme);
+    vt.ready.then(function(){
+      root.animate(
+        { clipPath: ['circle(0px at ' + x + 'px ' + y + 'px)', 'circle(' + end + 'px at ' + x + 'px ' + y + 'px)'] },
+        { duration: 750, easing: 'cubic-bezier(.19,1,.22,1)', pseudoElement: '::view-transition-new(root)' }
+      );
+    }).catch(function(){});
+    vt.finished.then(function(){ themeBusy = false; }, function(){ themeBusy = false; });
+  }
+  document.getElementById('themeToggle').addEventListener('click', switchTheme);
 
   /* ---------- MOBILE NAV ---------- */
   var navToggle = document.getElementById('navToggle');
@@ -1536,6 +1637,69 @@
     });
   }
 
+  /* ---------- PARTICLE NETWORK BACKGROUND (dark and light) ---------- */
+  (function(){
+    var canvas = document.getElementById('bgCanvas');
+    if(!canvas || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var ctx = canvas.getContext('2d');
+    var W = 0, H = 0, dots = [], running = true;
+    var mouse = { x: -9999, y: -9999 };
+    var LINK = 140, MOUSE_LINK = 180;
+
+    function resize(){
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      W = window.innerWidth; H = window.innerHeight;
+      canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var count = Math.min(90, Math.round(W * H / 17000));
+      dots = [];
+      for(var i = 0; i < count; i++){
+        dots.push({
+          x: Math.random() * W, y: Math.random() * H,
+          vx: (Math.random() - 0.5) * 0.35, vy: (Math.random() - 0.5) * 0.35,
+          r: 1 + Math.random() * 1.4
+        });
+      }
+    }
+    function frame(){
+      if(!running) return;
+      var dark = document.documentElement.getAttribute('data-theme') !== 'light';
+      var c = dark ? '255,255,255' : '0,0,0';
+      ctx.clearRect(0, 0, W, H);
+      for(var i = 0; i < dots.length; i++){
+        var a = dots[i];
+        a.x += a.vx; a.y += a.vy;
+        if(a.x < 0 || a.x > W) a.vx *= -1;
+        if(a.y < 0 || a.y > H) a.vy *= -1;
+        ctx.fillStyle = 'rgba(' + c + ',.55)';
+        ctx.beginPath(); ctx.arc(a.x, a.y, a.r, 0, 6.2832); ctx.fill();
+        for(var j = i + 1; j < dots.length; j++){
+          var b = dots[j], dx = a.x - b.x, dy = a.y - b.y, d = Math.sqrt(dx * dx + dy * dy);
+          if(d < LINK){
+            ctx.strokeStyle = 'rgba(' + c + ',' + (0.2 * (1 - d / LINK)).toFixed(3) + ')';
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+          }
+        }
+        var mx = a.x - mouse.x, my = a.y - mouse.y, md = Math.sqrt(mx * mx + my * my);
+        if(md < MOUSE_LINK){
+          ctx.strokeStyle = 'rgba(' + c + ',' + (0.38 * (1 - md / MOUSE_LINK)).toFixed(3) + ')';
+          ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke();
+        }
+      }
+      requestAnimationFrame(frame);
+    }
+    window.addEventListener('mousemove', function(e){ mouse.x = e.clientX; mouse.y = e.clientY; }, { passive: true });
+    window.addEventListener('mouseout', function(){ mouse.x = mouse.y = -9999; });
+    var rt; window.addEventListener('resize', function(){ clearTimeout(rt); rt = setTimeout(resize, 150); });
+    document.addEventListener('visibilitychange', function(){
+      running = !document.hidden;
+      if(running) requestAnimationFrame(frame);
+    });
+    resize();
+    requestAnimationFrame(frame);
+  })();
+
   /* ---------- ACTIVE NAV LINK (scroll spy) ---------- */
   var sections = Array.from(document.querySelectorAll('section, header.hero'));
   var navItems = document.querySelectorAll('[data-nav]');
@@ -1575,33 +1739,28 @@
   }, { threshold: 0.4 });
   document.querySelectorAll('.bar-fill').forEach(function(el){ barObserver.observe(el); });
 
-  /* ---------- SCOPED TABS (skills / exercises) ---------- */
-  function initTabs(containerSelector, panelSelector, onActivate){
-    var container = document.querySelector(containerSelector);
-    if(!container) return;
-    var btns = container.querySelectorAll('.tab-btn');
-    var panels = container.querySelectorAll(panelSelector);
+  /* ---------- TABS (skills, modules, sub-topics) ---------- */
+  function initTabGroup(tabsEl){
+    var scope = tabsEl.parentElement;
+    var sel = tabsEl.getAttribute('data-panels');
+    var btns = tabsEl.querySelectorAll('.tab-btn');
+    var panels = Array.prototype.filter.call(scope.children, function(el){ return el.matches(sel); });
     btns.forEach(function(btn){
       btn.addEventListener('click', function(){
         btns.forEach(function(b){ b.classList.remove('active'); });
         panels.forEach(function(p){ p.classList.remove('active'); });
         btn.classList.add('active');
-        var target = container.querySelector(panelSelector + '[data-panel="' + btn.getAttribute('data-tab') + '"]');
+        var target = panels.filter(function(p){ return p.getAttribute('data-panel') === btn.getAttribute('data-tab'); })[0];
         if(target){
           target.classList.add('active');
-          if(onActivate) onActivate(target);
+          target.querySelectorAll('.bar-fill').forEach(function(fill){
+            fill.style.width = fill.getAttribute('data-level') + '%';
+          });
         }
       });
     });
   }
-
-  initTabs('#skills', '.skills-panel', function(panel){
-    panel.querySelectorAll('.bar-fill').forEach(function(fill){
-      fill.style.width = fill.getAttribute('data-level') + '%';
-    });
-  });
-
-  initTabs('#mini-projects', '.ex-panel');
+  document.querySelectorAll('.tabs[data-panels]').forEach(initTabGroup);
 
   /* ---------- ROTATING ROLE LINE ---------- */
   var roles = ['Aspiring Full-Stack Web Developer', 'Digital Development Student', 'Front-End & Back-End Learner'];
