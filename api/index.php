@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ilyas Yekhlef — Digital Development Student &amp; Aspiring Full-Stack Web Developer</title>
-<meta name="description" content="Portfolio of Ilyas Yekhlef, a Digital Development student and aspiring full-stack web developer based in Tangier, Morocco — web development, databases, cybersecurity and practical projects.">
+<title>Ilyas Yekhlef â€” Digital Development Student &amp; Aspiring Full-Stack Web Developer</title>
+<meta name="description" content="Portfolio of Ilyas Yekhlef, a Digital Development student and aspiring full-stack web developer based in Tangier, Morocco â€” web development, databases, cybersecurity and practical projects.">
 <meta name="keywords" content="Ilyas Yekhlef, web developer Morocco, Tangier developer, digital development student, junior web developer, full-stack developer portfolio">
 <meta name="author" content="Ilyas Yekhlef">
 <meta name="robots" content="index, follow">
@@ -12,14 +12,14 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Ilyas Yekhlef — Digital Development Student &amp; Aspiring Full-Stack Web Developer">
+<meta property="og:title" content="Ilyas Yekhlef â€” Digital Development Student &amp; Aspiring Full-Stack Web Developer">
 <meta property="og:description" content="Portfolio of Ilyas Yekhlef, a Digital Development student and aspiring full-stack web developer based in Tangier, Morocco.">
-<meta property="og:site_name" content="Ilyas Yekhlef — Portfolio">
+<meta property="og:site_name" content="Ilyas Yekhlef â€” Portfolio">
 <meta property="og:locale" content="en_US">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ilyas Yekhlef — Digital Development Student &amp; Aspiring Full-Stack Web Developer">
+<meta name="twitter:title" content="Ilyas Yekhlef â€” Digital Development Student &amp; Aspiring Full-Stack Web Developer">
 <meta name="twitter:description" content="Portfolio of Ilyas Yekhlef, a Digital Development student and aspiring full-stack web developer based in Tangier, Morocco.">
 
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23000'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' fill='white' text-anchor='middle'%3EIY%3C/text%3E%3C/svg%3E">
@@ -521,7 +521,7 @@
   .tag{font-size:.75rem;padding:.32rem .7rem;border-radius:7px;background:var(--surface-strong);border:1px solid var(--border);color:var(--text-muted)}
   .feature-list{display:grid;grid-template-columns:1fr 1fr;gap:.4rem .8rem;margin-top:.6rem}
   .feature-list li{font-size:.83rem;color:var(--text-muted);display:flex;gap:.5rem;align-items:flex-start}
-  .feature-list li::before{content:"—";color:var(--text-faint);flex-shrink:0}
+  .feature-list li::before{content:"â€”";color:var(--text-faint);flex-shrink:0}
 
   /* ============ MINI PROJECTS ============ */
   .mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
@@ -881,7 +881,7 @@
         <div class="terminal reveal" style="margin-top:1.3rem">
           <div class="terminal-bar">
             <span></span><span></span><span></span>
-            <span class="terminal-title">ilyas@dev — zsh</span>
+            <span class="terminal-title">ilyas@dev â€” zsh</span>
           </div>
           <div class="terminal-body" id="terminalBody"></div>
         </div>
@@ -896,7 +896,7 @@
     <div class="section-head reveal">
       <div class="section-tag">Services</div>
       <h2>What I can help with</h2>
-      <p>As a student building real projects, here's where I can already contribute — and what I'm actively growing into.</p>
+      <p>As a student building real projects, here's where I can already contribute â€” and what I'm actively growing into.</p>
     </div>
 
     <div class="mini-grid reveal-stagger reveal">
@@ -912,7 +912,7 @@
           <div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
         </div>
         <h4>Front-End Development</h4>
-        <p>HTML, CSS and JavaScript interfaces — from static pages to interactive components.</p>
+        <p>HTML, CSS and JavaScript interfaces â€” from static pages to interactive components.</p>
       </div>
       <div class="mini-card">
         <div class="mini-top">
@@ -945,7 +945,7 @@
     <div class="section-head reveal">
       <div class="section-tag">Skills</div>
       <h2>What I work with</h2>
-      <p>I'm presenting my current level honestly — I'm a student continuously improving, not claiming expert status.</p>
+      <p>I'm presenting my current level honestly â€” I'm a student continuously improving, not claiming expert status.</p>
     </div>
 
     <div class="tabs reveal" data-panels=".skills-panel">
@@ -1017,7 +1017,7 @@
         <div class="project-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M12 2l5 5-5 5M8 12l-4 4 4 4M17 12l-2-2"/></svg>
         </div>
-        <div class="project-cat mono">IoT · Mobile Technology · Entrepreneurship</div>
+        <div class="project-cat mono">IoT Â· Mobile Technology Â· Entrepreneurship</div>
         <h3>KagiTech / Key Tracker</h3>
         <p>A smart Bluetooth key-tracking concept designed to help users quickly locate lost keys and everyday objects, combining a small Bluetooth tracker with a smartphone application.</p>
         <div class="tag-row">
@@ -1064,7 +1064,7 @@
         <div class="project-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5M3 12a9 3 0 0 0 18 0"/></svg>
         </div>
-        <div class="project-cat mono">Database · PHP · SQL</div>
+        <div class="project-cat mono">Database Â· PHP Â· SQL</div>
         <h3>Car Management / Parc Auto</h3>
         <p>A database management project designed to manage vehicles, drivers, accidents, technical inspections and fuel consumption.</p>
         <div class="tag-row">
@@ -1129,7 +1129,7 @@
           <span class="mini-tag mono">UML &middot; Class Diagram</span>
         </div>
         <h4>School Management &mdash; Class Diagram</h4>
-        <p>Models a school's structure: École, Département, Enseignant, Étudiant, Matière, Note and Salle, with operations like calculerMoyenneGenerale to compute student averages.</p>
+        <p>Models a school's structure: Ã‰cole, DÃ©partement, Enseignant, Ã‰tudiant, MatiÃ¨re, Note and Salle, with operations like calculerMoyenneGenerale to compute student averages.</p>
         <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramdeclassecole.mdj" download="diagramdeclassecole.mdj">Download .mdj</a>
       </div>
 
@@ -1139,7 +1139,7 @@
           <span class="mini-tag mono">UML &middot; Class Diagram</span>
         </div>
         <h4>Project &amp; Task Manager &mdash; Class Diagram</h4>
-        <p>Models a small dev-tools platform: Développeur, Projet, Tâche, an IDE and a participation relationship, with operations for creating, assigning and updating tasks.</p>
+        <p>Models a small dev-tools platform: DÃ©veloppeur, Projet, TÃ¢che, an IDE and a participation relationship, with operations for creating, assigning and updating tasks.</p>
         <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramdeclasswebsite.mdj" download="diagramdeclasswebsite.mdj">Download .mdj</a>
       </div>
 
@@ -1164,96 +1164,96 @@
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/diagramme_d_activite.jpeg" alt="Diagramme d'Activit&eacute;" loading="lazy">
+          <img src="assets/M201/diagramme_d_activite.jpg" alt="Diagramme d'Activit&eacute;" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Activity Diagram</span>
         <h4>Diagramme d'Activit&eacute;</h4>
         <p>Models the cancellation (d&eacute;sistement) workflow of a property sale across the buyer, sales director and lawyer, from request to refund of the deposit.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_activite.jpeg" download="diagramme_d_activite.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_activite.jpg" download="diagramme_d_activite.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/diagramme_de_cas_d_utilisation.jpeg" alt="Diagramme de Cas d'Utilisation" loading="lazy">
+          <img src="assets/M201/diagramme_de_cas_d_utilisation.jpg" alt="Diagramme de Cas d'Utilisation" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Use Case Diagram</span>
         <h4>Diagramme de Cas d'Utilisation</h4>
         <p>Maps the actors and use cases of a full apartment sale process &mdash; browsing offers, visits, reservations, purchase, payment and cancellation handling.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_cas_d_utilisation.jpeg" download="diagramme_de_cas_d_utilisation.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_cas_d_utilisation.jpg" download="diagramme_de_cas_d_utilisation.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/DIagramme_de_class.jpeg" alt="Diagramme de Classe" loading="lazy">
+          <img src="assets/M201/diagramme_de_classe.jpg" alt="Diagramme de Classe" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Class Diagram</span>
         <h4>Diagramme de Classe</h4>
         <p>Full domain model for an apartment sale system &mdash; properties, reservations, sales, cancellations, and the client, lawyer and sales-director roles.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/DIagramme_de_class.jpeg" download="DIagramme_de_class.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_classe.jpg" download="DIagramme_de_class.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/diagramme_de_sequence.jpeg" alt="Diagramme de S&eacute;quence" loading="lazy">
+          <img src="assets/M201/diagramme_de_sequence.jpg" alt="Diagramme de S&eacute;quence" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; Sequence Diagram</span>
         <h4>Diagramme de S&eacute;quence</h4>
         <p>Traces the interaction flow of reserving and visiting an apartment through to payment and the signed sale contract.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_sequence.jpeg" download="diagramme_de_sequence.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_sequence.jpg" download="diagramme_de_sequence.jpeg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/diagramme_d_etet_transition.jpeg" alt="Diagramme d'&Eacute;tats-Transitions" loading="lazy">
+          <img src="assets/M201/diagramme_d_etats_transition.jpg" alt="Diagramme d'&Eacute;tats-Transitions" loading="lazy">
         </div>
         <span class="mini-tag mono">UML &middot; State Diagram</span>
         <h4>Diagramme d'&Eacute;tats-Transitions</h4>
         <p>State diagram for a property listing &mdash; from awaiting sale through reserved, purchased and delivered, including the cancellation path.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_etet_transition.jpeg" download="diagramme_d_etet_transition.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_etats_transition.jpg" download="diagramme_d_etet_transition.jpeg">Download image</a>
       </div>
       <p style="grid-column:1/-1;font-size:.82rem;color:var(--text-faint);margin-top:.4rem;font-family:var(--font-mono)">.mdj files open in <a href="https://staruml.io" target="_blank" rel="noopener" style="color:var(--blue-bright)">StarUML</a></p>
       </div>
       <div class="ex-panel" data-panel="figma">
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/figmaex1partie1.png" alt="Shape Composition" loading="lazy">
+          <img src="assets/M201/figma_exercise1_partie1.jpg" alt="Shape Composition" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 1)</span>
         <h4>Shape Composition</h4>
         <p>Recreating a multi-shape logo mark using overlapping pills and circles &mdash; practicing boolean operations and precise alignment.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie1.png" download="figmaex1partie1.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie1.jpg" download="figmaex1partie1.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/figmaex1partie2.png" alt="Donut Chart" loading="lazy">
+          <img src="assets/M201/figma_exercise1_partie2.jpg" alt="Donut Chart" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 2)</span>
         <h4>Donut Chart</h4>
         <p>A donut chart component built from layered rings and arcs, practicing proportion, spacing and color.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie2.png" download="figmaex1partie2.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie2.jpg" download="figmaex1partie2.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/figmaex1partie3.png" alt="Dark Mode Card" loading="lazy">
+          <img src="assets/M201/figma_exercise1_partie3.jpg" alt="Dark Mode Card" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 3)</span>
         <h4>Dark Mode Card</h4>
         <p>A dark-mode UI card with icon and label, practicing spacing, contrast and minimal composition.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie3.png" download="figmaex1partie3.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie3.jpg" download="figmaex1partie3.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/figmaex1partie4.png" alt="Credit Card UI" loading="lazy">
+          <img src="assets/M201/figma_exercise1_partie4.jpg" alt="Credit Card UI" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 4)</span>
         <h4>Credit Card UI</h4>
         <p>A credit card UI component &mdash; testing gradients, rounded corners and a realistic card layout.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex1partie4.png" download="figmaex1partie4.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie4.jpg" download="figmaex1partie4.png">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
-          <img src="assets/M201/figmaex2.png" alt="Social Post Card" loading="lazy">
+          <img src="assets/M201/figma_exercise2.jpg" alt="Social Post Card" loading="lazy">
         </div>
         <span class="mini-tag mono">Figma &middot; Exercise 2</span>
         <h4>Social Post Card</h4>
         <p>A social-media post card clone &mdash; avatar, image, like/comment/share icons and an engagement count.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figmaex2.png" download="figmaex2.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise2.jpg" download="figmaex2.png">Download image</a>
       </div>
       </div>
     </div>
@@ -1267,15 +1267,15 @@
       <div class="ex-panel active" data-panel="gantt">
       <div class="mini-card">
         <div class="mini-image tall duo">
-          <a href="assets/M202/atelier1gestiondeproject_partie2_.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 1 full size"><img src="assets/M202/atelier1gestiondeproject_partie2_.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 1" loading="lazy"></a>
-          <a href="assets/M202/atelier1gestiondeproject_partie2_b.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 2 full size"><img src="assets/M202/atelier1gestiondeproject_partie2_b.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 2" loading="lazy"></a>
+          <a href="assets/M202/atelier1_photo1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 1 full size"><img src="assets/M202/atelier1_photo1.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 1" loading="lazy"></a>
+          <a href="assets/M202/atelier1_photo2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 1 photo 2 full size"><img src="assets/M202/atelier1_photo2.jpg" alt="Atelier 1 &mdash; Gantt chart and critical path, photo 2" loading="lazy"></a>
         </div>
         <span class="mini-tag mono">Gantt / PERT &middot; Project Management</span>
         <h4>Atelier 1</h4>
         <p>Project planning exercise: a Gantt chart for tasks A&ndash;H (October 2026) with their dependencies, plus the critical-path network. Critical path: A(5) &rarr; B(2) &rarr; F(5) &rarr; G(1) &rarr; H(2).</p>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem">
-          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1gestiondeproject_partie2_.jpg" download="atelier1gestiondeproject_partie2_.jpg">Download photo 1</a>
-          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1gestiondeproject_partie2_b.jpg" download="atelier1gestiondeproject_partie2_b.jpg">Download photo 2</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1_photo1.jpg" download="atelier1gestiondeproject_partie2_.jpg">Download photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1_photo2.jpg" download="atelier1gestiondeproject_partie2_b.jpg">Download photo 2</a>
         </div>
       </div>
       </div>
@@ -1306,12 +1306,12 @@
       <div class="ex-panel" data-panel="agile">
       <div class="mini-card">
         <div class="mini-image tall">
-          <a href="assets/M202/atelier2agilescrum.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 2 photo full size"><img src="assets/M202/atelier2agilescrum.jpg" alt="Atelier 2 &mdash; handwritten Agile and Scrum summary" loading="lazy"></a>
+          <a href="assets/M202/atelier2_agile_scrum.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 2 photo full size"><img src="assets/M202/atelier2_agile_scrum.jpg" alt="Atelier 2 &mdash; handwritten Agile and Scrum summary" loading="lazy"></a>
         </div>
         <span class="mini-tag mono">Agile &middot; Scrum</span>
         <h4>Atelier 2</h4>
         <p>Handwritten Agile &amp; Scrum summary: the Agile approach and values, traditional vs. Agile, Scrum vs. Kanban, roles (Product Owner, Scrum Master, Developers), backlogs, story points, sprints and ceremonies.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M202/atelier2agilescrum.jpg" download="atelier2agilescrum.jpg">Download photo</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M202/atelier2_agile_scrum.jpg" download="atelier2agilescrum.jpg">Download photo</a>
       </div>
       </div>
     </div>
@@ -1339,7 +1339,7 @@
         <p>Execution report (7 pages) of the SQL workshop on the remote MySQL instance: SSL connection, database and tables creation, joins, aggregations, functions, subqueries, then indexes with CREATE INDEX and EXPLAIN &mdash; with a screenshot for every step.</p>
         <div class="mini-actions">
           <a class="btn btn-primary btn-sm" href="assets/M203/Atelier_2_-_Rapport_d_Ex%C3%A9cution_SQL.pdf" target="_blank" rel="noopener">Open PDF</a>
-          <a class="btn btn-ghost btn-sm" href="assets/M203/Atelier_2_-_Rapport_d_Ex%C3%A9cution_SQL.pdf" download="Atelier_2_-_Rapport_d_Exécution_SQL.pdf">Download PDF</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M203/Atelier_2_-_Rapport_d_Ex%C3%A9cution_SQL.pdf" download="Atelier_2_-_Rapport_d_ExÃ©cution_SQL.pdf">Download PDF</a>
         </div>
       </div>
       </div>
@@ -1425,27 +1425,27 @@
 
     <div class="timeline reveal">
       <div class="tl-item">
-        <div class="tl-num">01 — Discover</div>
+        <div class="tl-num">01 â€” Discover</div>
         <h3>Started learning digital development</h3>
         <p>My first steps into the world of programming and web development.</p>
       </div>
       <div class="tl-item">
-        <div class="tl-num">02 — Build</div>
+        <div class="tl-num">02 â€” Build</div>
         <h3>Created practical projects</h3>
         <p>Built projects using HTML, CSS, JavaScript, PHP, Python and SQL.</p>
       </div>
       <div class="tl-item">
-        <div class="tl-num">03 — Explore</div>
+        <div class="tl-num">03 â€” Explore</div>
         <h3>Broadened my focus</h3>
         <p>Started exploring databases, cybersecurity and entrepreneurship.</p>
       </div>
       <div class="tl-item">
-        <div class="tl-num">04 — Improve</div>
+        <div class="tl-num">04 â€” Improve</div>
         <h3>Sharpening the fundamentals</h3>
         <p>Continuously improving my programming and problem-solving skills.</p>
       </div>
       <div class="tl-item future">
-        <div class="tl-num">05 — Future</div>
+        <div class="tl-num">05 â€” Future</div>
         <h3>Become a professional developer</h3>
         <p>Become a full-stack/web developer and build useful digital products.</p>
       </div>
@@ -1547,7 +1547,7 @@
       <div class="footer-brand">Ilyas Yekhlef</div>
       <div class="footer-role">Digital Development Student | Aspiring Web Developer</div>
     </div>
-    <div class="footer-copy">© 2026 Ilyas Yekhlef. All rights reserved.</div>
+    <div class="footer-copy">Â© 2026 Ilyas Yekhlef. All rights reserved.</div>
   </div>
 </footer>
 
@@ -1847,7 +1847,7 @@
       clearInterval(typing);
       submitLabel.textContent = 'Send Message';
       submitBtn.disabled = false;
-      formMsg.textContent = "Thanks for reaching out — I'll get back to you soon. (Connect this form to an email service or backend to receive real messages.)";
+      formMsg.textContent = "Thanks for reaching out â€” I'll get back to you soon. (Connect this form to an email service or backend to receive real messages.)";
       formMsg.className = 'form-msg show ok';
       form.reset();
     }, 1100);
@@ -1857,3 +1857,4 @@
 </script>
 </body>
 </html>
+
