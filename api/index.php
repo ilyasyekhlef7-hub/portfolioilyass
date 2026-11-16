@@ -400,6 +400,10 @@
   html[data-theme="light"] .photo-glow{opacity:.16}
   .photo-frame:hover{box-shadow:0 34px 80px -22px var(--blue-glow)}
   .photo-frame img{width:100%;height:100%;object-fit:cover;display:block}
+  .photo-frame > .image-open-link{display:block;width:100%;height:100%;cursor:zoom-in}
+  .project-image > .image-open-link{display:block;width:100%;height:100%;cursor:zoom-in}
+  .mini-image .image-open-link{cursor:zoom-in}
+  .photo-download{position:relative;z-index:3;display:table;margin:1rem auto 0}
   .mini-terminal{
     position:absolute;left:-8%;bottom:-9%;z-index:2;width:64%;min-width:210px;
     background:var(--bg-alt);border:1px solid var(--border-strong);border-radius:var(--radius-m);
@@ -838,6 +842,7 @@
           </div>
         </div>
 
+        <a class="btn btn-ghost btn-sm photo-download" href="assets/profile.jpg" download="profile.jpg">Download portrait</a>
         <div class="avail-chip"><span class="dot"></span> Open to internships</div>
 
         <div class="mini-terminal">
@@ -1169,7 +1174,7 @@
         <span class="mini-tag mono">UML &middot; Activity Diagram</span>
         <h4>Diagramme d'Activit&eacute;</h4>
         <p>Models the cancellation (d&eacute;sistement) workflow of a property sale across the buyer, sales director and lawyer, from request to refund of the deposit.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_activite.jpg" download="diagramme_d_activite.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_activite.jpg" download="diagramme_d_activite.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1178,7 +1183,7 @@
         <span class="mini-tag mono">UML &middot; Use Case Diagram</span>
         <h4>Diagramme de Cas d'Utilisation</h4>
         <p>Maps the actors and use cases of a full apartment sale process &mdash; browsing offers, visits, reservations, purchase, payment and cancellation handling.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_cas_d_utilisation.jpg" download="diagramme_de_cas_d_utilisation.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_cas_d_utilisation.jpg" download="diagramme_de_cas_d_utilisation.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1187,7 +1192,7 @@
         <span class="mini-tag mono">UML &middot; Class Diagram</span>
         <h4>Diagramme de Classe</h4>
         <p>Full domain model for an apartment sale system &mdash; properties, reservations, sales, cancellations, and the client, lawyer and sales-director roles.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_classe.jpg" download="DIagramme_de_class.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_classe.jpg" download="diagramme_de_classe.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1196,7 +1201,7 @@
         <span class="mini-tag mono">UML &middot; Sequence Diagram</span>
         <h4>Diagramme de S&eacute;quence</h4>
         <p>Traces the interaction flow of reserving and visiting an apartment through to payment and the signed sale contract.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_sequence.jpg" download="diagramme_de_sequence.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_de_sequence.jpg" download="diagramme_de_sequence.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1205,7 +1210,7 @@
         <span class="mini-tag mono">UML &middot; State Diagram</span>
         <h4>Diagramme d'&Eacute;tats-Transitions</h4>
         <p>State diagram for a property listing &mdash; from awaiting sale through reserved, purchased and delivered, including the cancellation path.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_etats_transition.jpg" download="diagramme_d_etet_transition.jpeg">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/diagramme_d_etats_transition.jpg" download="diagramme_d_etats_transition.jpg">Download image</a>
       </div>
       <p style="grid-column:1/-1;font-size:.82rem;color:var(--text-faint);margin-top:.4rem;font-family:var(--font-mono)">.mdj files open in <a href="https://staruml.io" target="_blank" rel="noopener" style="color:var(--blue-bright)">StarUML</a></p>
       </div>
@@ -1217,7 +1222,7 @@
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 1)</span>
         <h4>Shape Composition</h4>
         <p>Recreating a multi-shape logo mark using overlapping pills and circles &mdash; practicing boolean operations and precise alignment.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie1.jpg" download="figmaex1partie1.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie1.jpg" download="figma_exercise1_partie1.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1226,7 +1231,7 @@
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 2)</span>
         <h4>Donut Chart</h4>
         <p>A donut chart component built from layered rings and arcs, practicing proportion, spacing and color.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie2.jpg" download="figmaex1partie2.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie2.jpg" download="figma_exercise1_partie2.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1235,7 +1240,7 @@
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 3)</span>
         <h4>Dark Mode Card</h4>
         <p>A dark-mode UI card with icon and label, practicing spacing, contrast and minimal composition.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie3.jpg" download="figmaex1partie3.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie3.jpg" download="figma_exercise1_partie3.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1244,7 +1249,7 @@
         <span class="mini-tag mono">Figma &middot; Exercise 1 (Part 4)</span>
         <h4>Credit Card UI</h4>
         <p>A credit card UI component &mdash; testing gradients, rounded corners and a realistic card layout.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie4.jpg" download="figmaex1partie4.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise1_partie4.jpg" download="figma_exercise1_partie4.jpg">Download image</a>
       </div>
       <div class="mini-card">
         <div class="mini-image">
@@ -1253,7 +1258,7 @@
         <span class="mini-tag mono">Figma &middot; Exercise 2</span>
         <h4>Social Post Card</h4>
         <p>A social-media post card clone &mdash; avatar, image, like/comment/share icons and an engagement count.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise2.jpg" download="figmaex2.png">Download image</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M201/figma_exercise2.jpg" download="figma_exercise2.jpg">Download image</a>
       </div>
       </div>
     </div>
@@ -1274,10 +1279,42 @@
         <h4>Atelier 1</h4>
         <p>Project planning exercise: a Gantt chart for tasks A&ndash;H (October 2026) with their dependencies, plus the critical-path network. Critical path: A(5) &rarr; B(2) &rarr; F(5) &rarr; G(1) &rarr; H(2).</p>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem">
-          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1_photo1.jpg" download="atelier1gestiondeproject_partie2_.jpg">Download photo 1</a>
-          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1_photo2.jpg" download="atelier1gestiondeproject_partie2_b.jpg">Download photo 2</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1_photo1.jpg" download="atelier1_photo1.jpg">Download photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier1_photo2.jpg" download="atelier1_photo2.jpg">Download photo 2</a>
         </div>
       </div>
+      </div>
+      <div class="mini-card">
+        <div class="mini-image tall duo">
+          <a href="assets/M202/atelier3_git_page1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 3 photo 1 full size"><img src="assets/M202/atelier3_git_page1.jpg" alt="Atelier 3 — Git basics, page 1" loading="lazy"></a>
+          <a href="assets/M202/atelier3_git_page2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 3 photo 2 full size"><img src="assets/M202/atelier3_git_page2.jpg" alt="Atelier 3 — Git basics, page 2" loading="lazy"></a>
+        </div>
+        <span class="mini-tag mono">Git &middot; M202</span>
+        <h4>Atelier 3 &mdash; Git Basics</h4>
+        <p>Handwritten notes on initializing a repository, configuring Git identity, the working directory and staging area, commits, status, diffs, and tracked versus untracked files.</p>
+        <div class="mini-actions">
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier3_git_page1.jpg" target="_blank" rel="noopener">Open photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier3_git_page1.jpg" download="atelier3_git_page1.jpg">Download photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier3_git_page2.jpg" target="_blank" rel="noopener">Open photo 2</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier3_git_page2.jpg" download="atelier3_git_page2.jpg">Download photo 2</a>
+        </div>
+      </div>
+      <div class="mini-card">
+        <div class="mini-image tall duo">
+          <a href="assets/M202/atelier4_git_github_page1.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 4 photo 1 full size"><img src="assets/M202/atelier4_git_github_page1.jpg" alt="Atelier 4 — collaborative GitHub report, page 1" loading="lazy"></a>
+          <a href="assets/M202/atelier4_git_github_page2.jpg" target="_blank" rel="noopener" aria-label="Open Atelier 4 photo 2 full size"><img src="assets/M202/atelier4_git_github_page2.jpg" alt="Atelier 4 — collaborative GitHub report, page 2" loading="lazy"></a>
+        </div>
+        <span class="mini-tag mono">Git &middot; GitHub &middot; M202</span>
+        <h4>Atelier 4 &mdash; GitHub Collaboration</h4>
+        <p>Collaborative Git workflow with feature branches, pull requests, code review, merging and synchronizing the local repository.</p>
+        <div class="mini-actions">
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier4_git_github_page1.jpg" target="_blank" rel="noopener">Open photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier4_git_github_page1.jpg" download="atelier4_git_github_page1.jpg">Download photo 1</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier4_git_github_page2.jpg" target="_blank" rel="noopener">Open photo 2</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/atelier4_git_github_page2.jpg" download="atelier4_git_github_page2.jpg">Download photo 2</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/Rapport_Atelier_Git_GitHub.pdf" target="_blank" rel="noopener">Open report (PDF)</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M202/Rapport_Atelier_Git_GitHub.pdf" download="Rapport_Atelier_Git_GitHub.pdf">Download report</a>
+        </div>
       </div>
       <div class="ex-panel" data-panel="git">
       <div class="mini-card">
@@ -1311,7 +1348,7 @@
         <span class="mini-tag mono">Agile &middot; Scrum</span>
         <h4>Atelier 2</h4>
         <p>Handwritten Agile &amp; Scrum summary: the Agile approach and values, traditional vs. Agile, Scrum vs. Kanban, roles (Product Owner, Scrum Master, Developers), backlogs, story points, sprints and ceremonies.</p>
-        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M202/atelier2_agile_scrum.jpg" download="atelier2agilescrum.jpg">Download photo</a>
+        <a class="btn btn-ghost btn-sm" style="margin-top:.9rem" href="assets/M202/atelier2_agile_scrum.jpg" download="atelier2_agile_scrum.jpg">Download photo</a>
       </div>
       </div>
     </div>
@@ -1855,6 +1892,40 @@
 
 })();
 </script>
+<script>
+  document.querySelectorAll('img').forEach(function (img) {
+    var source = img.getAttribute('src');
+    if (!source) return;
+
+    var imageUrl;
+    try {
+      imageUrl = new URL(source, document.baseURI).href;
+    } catch (_) {
+      return;
+    }
+
+    var existingLink = img.closest('a');
+    if (existingLink) {
+      existingLink.href = imageUrl;
+      existingLink.target = '_blank';
+      existingLink.rel = 'noopener';
+      if (!existingLink.hasAttribute('aria-label')) {
+        existingLink.setAttribute('aria-label', 'Open ' + (img.alt || 'image') + ' full size');
+      }
+      return;
+    }
+
+    var openLink = document.createElement('a');
+    openLink.className = 'image-open-link';
+    openLink.href = imageUrl;
+    openLink.target = '_blank';
+    openLink.rel = 'noopener';
+    openLink.setAttribute('aria-label', 'Open ' + (img.alt || 'image') + ' full size');
+    img.parentNode.insertBefore(openLink, img);
+    openLink.appendChild(img);
+  });
+</script>
 </body>
 </html>
+
 
