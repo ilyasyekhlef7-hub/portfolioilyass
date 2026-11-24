@@ -1361,10 +1361,10 @@
           <span class="mini-tag mono">SQL &middot; MySQL &middot; Aiven</span>
         </div>
         <h4>Atelier 1 &mdash; SQL Complet</h4>
-        <p>Lab report (14 pages) on a MySQL 8.4 database hosted on Aiven Cloud: schema of five related tables, data insertion, INNER / LEFT / RIGHT / FULL joins, aggregations (SUM, AVG, GROUP BY, HAVING), functions (IF, DATEDIFF, LIMIT) and subqueries (IN, NOT IN, EXISTS).</p>
+        <p>SQL workshop report covering database and table creation, data insertion, joins, aggregations, functions and subqueries.</p>
         <div class="mini-actions">
-          <a class="btn btn-primary btn-sm" href="assets/M203/Atelier_1_SQL_Complet.pdf" target="_blank" rel="noopener">Open PDF</a>
-          <a class="btn btn-ghost btn-sm" href="assets/M203/Atelier_1_SQL_Complet.pdf" download="Atelier_1_SQL_Complet.pdf">Download PDF</a>
+          <a class="btn btn-primary btn-sm" href="assets/M203/atelier1-SQL%20%20COMPLET.pdf" target="_blank" rel="noopener">Open PDF</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M203/atelier1-SQL%20%20COMPLET.pdf" download="Atelier_1_SQL_Complet.pdf">Download PDF</a>
         </div>
       </div>
       <div class="mini-card">
@@ -1373,11 +1373,40 @@
           <span class="mini-tag mono">SQL &middot; MySQL &middot; Aiven</span>
         </div>
         <h4>Atelier 2 &mdash; SQL Execution Report</h4>
-        <p>Execution report (7 pages) of the SQL workshop on the remote MySQL instance: SSL connection, database and tables creation, joins, aggregations, functions, subqueries, then indexes with CREATE INDEX and EXPLAIN &mdash; with a screenshot for every step.</p>
+        <p>Execution report documenting the SQL workshop, including database setup, queries, joins, aggregations and indexes.</p>
         <div class="mini-actions">
-          <a class="btn btn-primary btn-sm" href="assets/M203/Atelier_2_-_Rapport_d_Ex%C3%A9cution_SQL.pdf" target="_blank" rel="noopener">Open PDF</a>
-          <a class="btn btn-ghost btn-sm" href="assets/M203/Atelier_2_-_Rapport_d_Ex%C3%A9cution_SQL.pdf" download="Atelier_2_-_Rapport_d_ExÃ©cution_SQL.pdf">Download PDF</a>
+          <a class="btn btn-primary btn-sm" href="assets/M203/atelier2%20-%20Rapport%20d%27Ex%C3%A9cution%20SQL.pdf" target="_blank" rel="noopener">Open PDF</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M203/atelier2%20-%20Rapport%20d%27Ex%C3%A9cution%20SQL.pdf" download="Atelier_2_Rapport_Execution_SQL.pdf">Download PDF</a>
         </div>
+      </div>
+      <div class="mini-card">
+        <div class="mini-top"><div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><span class="mini-tag mono">SQL &middot; MySQL</span></div>
+        <h4>Atelier 3 &mdash; Centre de Formation</h4>
+        <p>Database workshop for managing a training centre.</p>
+        <div class="mini-actions">
+          <a class="btn btn-primary btn-sm" href="assets/M203/Atelier3%20-%20Gestion%20d%27un%20Centre%20de%20Formation%20%28MySQL%29.pdf" target="_blank" rel="noopener">Open PDF</a>
+          <a class="btn btn-ghost btn-sm" href="assets/M203/Atelier3%20-%20Gestion%20d%27un%20Centre%20de%20Formation%20%28MySQL%29.pdf" download="Atelier_3_Centre_de_Formation.pdf">Download PDF</a>
+        </div>
+      </div>
+      <div class="mini-card">
+        <div class="mini-top"><div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><span class="mini-tag mono">SQL &middot; MySQL</span></div>
+        <h4>Atelier 4 &mdash; SQL</h4><p>SQL workshop report.</p>
+        <div class="mini-actions"><a class="btn btn-primary btn-sm" href="assets/M203/atelier4.pdf" target="_blank" rel="noopener">Open PDF</a><a class="btn btn-ghost btn-sm" href="assets/M203/atelier4.pdf" download="Atelier_4.pdf">Download PDF</a></div>
+      </div>
+      <div class="mini-card">
+        <div class="mini-top"><div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><span class="mini-tag mono">SQL &middot; MySQL</span></div>
+        <h4>Atelier 5 &mdash; SQL</h4><p>SQL workshop document.</p>
+        <div class="mini-actions"><a class="btn btn-primary btn-sm" href="assets/M203/Atelier5.docx" target="_blank" rel="noopener">Open document</a><a class="btn btn-ghost btn-sm" href="assets/M203/Atelier5.docx" download="Atelier5.docx">Download DOCX</a></div>
+      </div>
+      <div class="mini-card">
+        <div class="mini-top"><div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><span class="mini-tag mono">SQL &middot; MySQL</span></div>
+        <h4>Atelier 6 &mdash; SQL</h4><p>SQL workshop document.</p>
+        <div class="mini-actions"><a class="btn btn-primary btn-sm" href="assets/M203/Atelier6.docx" target="_blank" rel="noopener">Open document</a><a class="btn btn-ghost btn-sm" href="assets/M203/Atelier6.docx" download="Atelier6.docx">Download DOCX</a></div>
+      </div>
+      <div class="mini-card">
+        <div class="mini-top"><div class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><span class="mini-tag mono">SQL &middot; MySQL</span></div>
+        <h4>Atelier 7 &mdash; SQL</h4><p>SQL workshop report.</p>
+        <div class="mini-actions"><a class="btn btn-primary btn-sm" href="assets/M203/atelier7.pdf" target="_blank" rel="noopener">Open PDF</a><a class="btn btn-ghost btn-sm" href="assets/M203/atelier7.pdf" download="Atelier_7.pdf">Download PDF</a></div>
       </div>
       </div>
     </div>
