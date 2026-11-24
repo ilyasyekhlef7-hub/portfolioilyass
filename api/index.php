@@ -838,11 +838,11 @@
         <div class="photo-glow"></div>
         <div class="photo-ring">
           <div class="photo-frame">
-            <img src="assets/profile.jpg" alt="Portrait of Ilyas Yekhlef">
+            <img src="assets/profile.jpeg" alt="Portrait of Ilyas Yekhlef">
           </div>
         </div>
 
-        <a class="btn btn-ghost btn-sm photo-download" href="assets/profile.jpg" download="profile.jpg">Download portrait</a>
+        <a class="btn btn-ghost btn-sm photo-download" href="assets/profile.jpeg" download="profile.jpeg">Download portrait</a>
         <div class="avail-chip"><span class="dot"></span> Open to internships</div>
 
         <div class="mini-terminal">
